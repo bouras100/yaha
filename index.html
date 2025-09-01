@@ -80,7 +80,7 @@
 
   <!-- شاشة النهاية -->
   <div id="endScreen" class="center-screen end-screen" style="display:none;z-index:60">
-    <h3>انتهت اللعبة</h3>
+    <h3>ياحمار متعرفش تلعب</h3>
     <p id="endScore">نقاطك: 0</p>
     <div style="display:flex;gap:8px;justify-content:center;margin-top:8px">
       <button id="restartFromEnd" class="btn primary">إعادة</button>
@@ -290,8 +290,8 @@ function onLevelUp(lv){
   if(lv >= 8) player.color = '#440000';
 }
 function levelHint(lv){
-  if(lv === 2) return 'احذر الأشواك!';
-  if(lv === 3) return 'ثقوب في الأرض!';
+  if(lv === 2) return 'احذر فقد بدأ بالوقوف!';
+  if(lv === 3) return 'ثقوب في قاعة ناصر!';
   if(lv >= 4) return 'كرات نار متحركة!';
   return 'استمر!';
 }
